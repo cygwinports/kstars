@@ -1,4 +1,0 @@
-category: KDE Science
-requires: libcfitsio3 libgcc1 libGL1 libkdecore5 libQtCore4 libQtDBus4 libQtGui4 libQtOpenGL4 libQtSvg4 libstdc++6 xplanet
-sdesc: "KDE planetarium"
-ldesc: "KDE education suite"

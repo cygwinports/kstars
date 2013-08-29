@@ -1,0 +1,11 @@
+inherit kde4 python
+
+NAME="kstars"
+VERSION=4.10.5
+RELEASE=1
+CATEGORY="Science"
+SUMMARY="KDE planetarium"
+DESCRIPTION="Part of the KDE education suite"
+REQUIRES="xplanet"
+
+PATCH_URI="4.7.0-no-install-libhtmesh.patch"
