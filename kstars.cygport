@@ -1,7 +1,7 @@
 inherit kde4 python
 
 NAME="kstars"
-VERSION=4.12.5
+VERSION=4.13.3
 RELEASE=1
 CATEGORY="Science"
 SUMMARY="KDE planetarium"
@@ -10,5 +10,5 @@ REQUIRES="xplanet"
 
 PATCH_URI="
 	4.7.0-no-install-libhtmesh.patch
-	4.11.5-cygwin-isnan.patch
+	4.13.3-std-isnan.patch
 "
