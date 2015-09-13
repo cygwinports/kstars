@@ -1,12 +1,12 @@
-inherit kde4 python
+inherit kf5 python
 
 NAME="kstars"
-VERSION=14.12.3
+VERSION=15.04.3
 RELEASE=1
 CATEGORY="Science"
 SUMMARY="KDE planetarium"
 DESCRIPTION="Part of the KDE education suite"
-REQUIRES="kde-runtime xplanet"
+REQUIRES="xplanet"
 
 PATCH_URI="
 	4.7.0-no-install-libhtmesh.patch
