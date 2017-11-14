@@ -1,0 +1,11 @@
+--- origsrc/kstars-17.08.3/kstars/htmesh/CMakeLists.txt	2017-11-13 15:37:31.794966300 -0600
++++ src/kstars-17.08.3/kstars/htmesh/CMakeLists.txt	2017-11-13 18:49:39.971480100 -0600
+@@ -34,7 +34,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}
+ 
+ add_library(htmesh STATIC ${HTMesh_LIB_SRC})
+ 
+-add_definitions(-D_EXPORTING)
++add_definitions(-D_EXPORTING -D_GNU_SOURCE)
+ 
+ set_target_properties(htmesh PROPERTIES
+     VERSION 1.0.0
